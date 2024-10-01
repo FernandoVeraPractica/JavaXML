@@ -27,6 +27,7 @@ public class Main {
         
         Document doc = xmlToDOM(fichero);
         Node root = doc.getFirstChild();
+        System.out.println("");
         
         listarNodos(root);
         
